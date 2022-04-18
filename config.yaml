@@ -1,4 +1,4 @@
-baseURL: https://example.com/
+#baseURL: https://exquisite-cascaron-d6489f.netlify.app
 title: 切尔诺夫的脸 Chernoff Faces
 theme: hugo-book
 disablePathToLower: yes
