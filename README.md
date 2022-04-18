@@ -1,5 +1,5 @@
-# blogdown_chernoff_faces
-rebuild website with blogdown
+# new blog
 
-# host
-https://exquisite-cascaron-d6489f.netlify.app
+host: https://timely-torte-53a001.netlify.app
+
+base on hugo book: https://github.com/alex-shpak/hugo-book

@@ -1,7 +1,7 @@
 ---
+weight: 3
 bookFlatSection: true
-title: Example Site
-weight: 1
+title: "Example Site"
 ---
 
 # Introduction
