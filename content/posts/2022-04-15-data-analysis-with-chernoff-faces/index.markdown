@@ -11,8 +11,6 @@ tags:
   - data visulisation
 ---
 
-<img src="images/chernoff_faces.png" alt="" width="80%"/>
-
 # Introduction
 
 The *Chernoff-Faces* (Chernoff 1973) developed by Herman Chernoff (\* 1 July 1923) are a method of multivariate data visualisation. Within the framework of data visualisation using Chernoff Faces, the physiognomy of a cartoon-like simplified human face (e.g. size of the ears, shape of the mouth, inclination of the eyebrows, size of the nose, etc.) is shaped according to the characteristic values of a object. As a result, each row vector of a data set receives a Chernoff face structured according to its combination of column vector values. By means of the Chernoff faces, which may vary depending on the values on the column vectors, the feature profiles of the row vectors can now be compared with each other. A distinctive strength of the Chernoff Faces visualisation method is that it uses the human ability to register even small divergences or convergences in the physiognomy of human (or human-like) faces. Since the physiognomy of the Chernoff Faces is in a sense *short-circuited* with the feature expressions of the respective feature carriers, the method of the Chernoff Faces allows similarity or dissimilarity structures of different feature profiles of line vectors to be explored easily and intuitively.

@@ -12,8 +12,6 @@ tags:
 weight: 1
 ---
 
-<img src="images/render.png" alt="" width="60%"/>
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
 	echo = TRUE,

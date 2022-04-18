@@ -10,8 +10,6 @@ tags:
   - web scraping
 ---
 
-<img src="images/webscraping_py_1_v2.png" alt="" width="50%" class="center"/>
-
 # Introduction {#introduction}
 
 Web scraping refers to the process of extracting, copying and storing
