@@ -8,7 +8,7 @@ type: docs
 {{< columns >}}
 ## About the blog
 
-The blog "Chernoff faces" documents knowledge that is loosely connected to my research activities and/or my PhD. This can be both methodological and purely technical in nature. The main purpose of the documentation is to briefly and clearly document individual knowledge elements that I have developed for my work as a (social) data scientist. A very welcome side effect would be if my documentation helped someone to work with e.g. [R](https://www.r-project.org/), [Python](https://www.python.org/), SQL or to understand how to apply certain methods. So, for this purpose, tutorials written in [Rmarkdown](https://rmarkdown.rstudio.com/) will be published regularly on this blog, applying various data science techniques and software packages.
+The blog _Chernoff faces_ documents knowledge that is loosely connected to my research activities and/or my PhD. This can be both methodological and purely technical in nature. The main purpose of the documentation is to briefly and clearly document individual knowledge elements that I have developed for my work as a (social) data scientist. A very welcome side effect would be if my documentation helped someone to work with e.g. [R](https://www.r-project.org/), [Python](https://www.python.org/), SQL or to understand how to apply certain methods. So, for this purpose, tutorials written in [Rmarkdown](https://rmarkdown.rstudio.com/) will be published regularly on this blog, applying various data science techniques and software packages.
 
 <--->
 
