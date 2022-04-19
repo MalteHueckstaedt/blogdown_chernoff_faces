@@ -34,7 +34,7 @@ menu:
       url: http://local-fist.com/
       weight: 20
 params:
-  BookMenuBundle: /menu
+  # BookMenuBundle: /menu
   BookComments: yes
   BookDateFormat: January 2, 2006
   #BookEditPath: edit/main/exampleSite

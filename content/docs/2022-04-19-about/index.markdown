@@ -1,6 +1,11 @@
 ---
-title: Introduction
-type: docs
+title: About
+author: R package build
+date: '2022-04-19'
+slug: []
+categories: []
+tags: []
+weight: 2
 ---
 
 # About 关于

@@ -4,8 +4,7 @@ headless: true
 
 - [Posts ]({{< relref "/posts/" >}})
 - [Contact]({{< relref "/docs/example" >}})
-- [About]({{< relref "/docs/about" >}})
-- [Phd]({{< relref "/docs/2022-04-19-phd/index" >}})
+- [Phdd]({{< relref "/docs/2022-04-19-phd/index" >}})
 - [other]({{< relref "/docs/2022-04-19-phd" >}})
   - [With ToC]({{< relref "/docs/example/table-of-contents/with-toc" >}})
   - [Without ToC]({{< relref "/docs/example/table-of-contents/without-toc" >}})

@@ -21,7 +21,6 @@ My Ph.D. is closely linked to the research project DEKiF, which started in Febru
 
 - Paper No.4: Hückstädt, M., Leisten, L.M. (2022). _Internal factors promoting research collaboration problems - An input-process-output analysis_.
 
-
 ## timeline of my Ph.D
 
 There is no doubt that every Ph.D. is to some extent chaotic and not exactly as planned. In any case, this is also true of my Ph.D. to this day. In retrospect, my Ph.D. can be represented on a timeline by 22 central work steps (bars) and 6 milestones (points). The labels of the respective steps and milestones are displayed when you hover the mouse over the corresponding bars and points.
@@ -35,3 +34,70 @@ vistime(pdh_timeline, optimize_y = F,show_labels=F)
 ```
 
 As you can see, my Ph.D. is (hopefully) coming to an end. Three of the four articles have been submitted and are awaiting a review. At this stage (2022-04), the _only_ remaining thing to do is to write a general introduction and discussion, which will form the bracket of the four articles listed above. With luck, I hope to finally complete my Ph.D. - after three and a half years - in late summer or autumn 2022.
+
+
+
+```{r eval=FALSE, include=FALSE}
+library(tidyverse)
+library(gh)
+library(lubridate)
+library(glue)
+gh_pal <- c(blue = "#0366d6", yellow = "#ffd33d", red = "#d73a49", green = "#28a745", purple = "#6f42c1", light_green = "#dcffe4")
+
+
+repos <- gh("/user/repos", .limit = Inf)
+
+
+repo_info <- tibble(
+  owner = map_chr(repos, c("owner", "login")),
+  name = map_chr(repos, "name"),
+  full_name = map_chr(repos, "full_name"),
+  private = map_lgl(repos, "private")
+)
+```
+
+```{r eval=FALSE, include=FALSE}
+null_list <- function(x){
+  map_chr(x, ~{ifelse(is.null(.x), NA, .x)})
+}
+parse_commit <- function(commits, repo){
+  # browser()
+  commit_by <- map(commits, c("commit", "author", "name"))
+  username <- map(commits, c("committer", "login"))
+  commit_time <- map(commits, c("commit", "author", "date"))
+  message <- map(commits, c("commit", "message"))
+  
+  out <- tibble(
+    repo = repo,
+    commit_by = null_list(commit_by),
+    username = null_list(username),
+    commit_time = null_list(commit_time),
+    message = null_list(message)
+  )
+  
+  out <- mutate(out, commit_time = as.POSIXct(commit_time, format = "%Y-%m-%dT%H:%M:%SZ"))
+  return(out)
+}
+gh_safe <- purrr::possibly(gh, otherwise = NULL)
+```
+
+```{r eval=FALSE, include=FALSE}
+all_commits <- map_dfr(repo_info$full_name, function(z){
+  name_split <- str_split(z, "/")
+  owner <- name_split[[1]][1]
+  repo <- name_split[[1]][2]
+  
+  repo_commits <- gh_safe("/repos/:owner/:repo/commits", owner = owner, repo = repo, .limit = Inf)
+  
+  out <- parse_commit(repo_commits, repo = z)
+  
+  return(out)
+})
+
+
+my_commits <- all_commits %>% 
+  filter(commit_by == "Malte Hückstädt") %>% 
+  mutate(commit_time = commit_time - hours(5))
+
+```
+
