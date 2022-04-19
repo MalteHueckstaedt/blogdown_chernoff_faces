@@ -1,0 +1,37 @@
+---
+title: Phd
+author: R package build
+date: '2022-04-19'
+slug: []
+categories: []
+tags: []
+weight: 1
+---
+
+# Doctor of Philosophy (Ph.D)
+
+I am writing my Ph.D. on the topic of research collaboration success and problems in research clusters of the German Research Foundation (DFG) at LUH Hanover.
+My Ph.D. is closely linked to the research project DEKiF, which started in February 2019 and ended in April 2020. Since I have decided to do my doctorate cumulatively, the timeline of my Ph.D. is strongly structured by the writing of four papers:
+
+- Paper No.1: Hückstädt, M. (2022). _Coopetition between frenemies - interrelations and effects of seven collaboration problems in research clusters_.
+
+- Paper No.2: Weinmann, C. Hückstädt, M., Meißner, F., Vowe, G. (2022). _How do researchers perceive problems in research collaboration? Results from a large-scale study of german scientists_.
+
+- Paper No.3: Hückstädt, M. (2022). _Ten reasons why research collaborations succeed - a random forest approach_.
+
+- Paper No.4: Hückstädt, M., Leisten, L.M. (2022). _Internal factors promoting research collaboration problems - An input-process-output analysis_.
+
+
+## timeline of my Ph.D
+
+There is no doubt that every Ph.D. is to some extent chaotic and not exactly as planned. In any case, this is also true of my Ph.D. to this day. In retrospect, my Ph.D. can be represented on a timeline by 22 central work steps (bars) and 6 milestones (points). The labels of the respective steps and milestones are displayed when you hover the mouse over the corresponding bars and points.
+
+```{r echo=FALSE}
+library(vistime)
+library(readxl)
+
+pdh_timeline <- read_excel("pdh_timeline.xlsx")
+vistime(pdh_timeline, optimize_y = F,show_labels=F)
+```
+
+As you can see, my Ph.D. is (hopefully) coming to an end. Three of the four articles have been submitted and are awaiting a review. At this stage (2022-04), the _only_ remaining thing to do is to write a general introduction and discussion, which will form the bracket of the four articles listed above. With luck, I hope to finally complete my Ph.D. - after three and a half years - in late summer or autumn 2022.
