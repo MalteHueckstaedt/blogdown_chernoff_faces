@@ -14,7 +14,7 @@ markup:
     hl_Lines: ""
     lineNoStart: 1
     lineNos: true
-    lineNumbersInTable: true
+    lineNumbersInTable: false
     noClasses: true
     tabWidth: 2
     style: "abap"
@@ -23,9 +23,9 @@ markup:
       unsafe: yes
   tableOfContents:
     startLevel: 1
-    
+
 menu:
-  #before: 
+  #before:
   after:
     - name: Github
       url: https://github.com/MalteHueckstaedt
@@ -48,5 +48,3 @@ params:
   BookTranslatedOnly: no
 highlight:
     codeFences: false
-    
-
