@@ -2,8 +2,9 @@
 headless: true
 ---
 
-- [**Example Site**]({{< relref "/docs/example" >}})
 - [Posts ]({{< relref "/posts/" >}})
+- [Contact]({{< relref "/docs/example" >}})
+- [About]({{< relref "/docs/example" >}})
 - [Table of Contents]({{< relref "/docs/example/table-of-contents" >}})
   - [With ToC]({{< relref "/docs/example/table-of-contents/with-toc" >}})
   - [Without ToC]({{< relref "/docs/example/table-of-contents/without-toc" >}})
@@ -12,8 +13,8 @@ headless: true
     - [4th]({{< relref "/docs/example/collapsed/3rd-level/4th-level" >}})
 <br />
 
-- **Shoes**
-- [Buttons]({{< relref "/docs/shortcodes/buttons" >}})
+- **Links**
+- [GitHub]({{< relref "/docs/shortcodes/buttons" >}})
 - [Columns]({{< relref "/docs/shortcodes/columns" >}})
 - [Expand]({{< relref "/docs/shortcodes/expand" >}})
 - [Hints]({{< relref "/docs/shortcodes/hints" >}})
