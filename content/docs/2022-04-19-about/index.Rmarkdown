@@ -1,14 +1,14 @@
 ---
-title: About
+title: 關於
 author: R package build
 date: '2022-04-19'
 slug: []
 categories: []
 tags: []
-weight: 2
+weight: 3
 ---
 
-# About 关于
+# About
 
 {{< columns >}}
 ## About the blog

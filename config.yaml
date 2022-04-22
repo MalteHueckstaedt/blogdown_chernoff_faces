@@ -1,5 +1,5 @@
 #baseURL: https://example.com/
-title: 切尔诺夫的脸 Chernoff Faces
+title: Chernoff Faces 切尔诺夫的脸
 theme: hugo-book
 disablePathToLower: yes
 enableGitInfo: no
@@ -29,10 +29,23 @@ menu:
   after:
     - name: Github
       url: https://github.com/MalteHueckstaedt
-      weight: 10
-    - name: Local Fist
-      url: http://local-fist.com/
       weight: 20
+    - name: Google Scholar
+      url: https://scholar.google.com/citations?hl=en&user=EJTHqH4AAAAJ
+      weight: 30
+    - name: Research Gate
+      url: https://www.researchgate.net/profile/Malte-Hueckstaedt
+      weight: 40
+    - name: LinkedIn
+      url: https://de.linkedin.com/in/malte-hückstädt-82aa78208?challengeId=AQGlja9Bc2V4lwAAAYBREfppno4C2XhbbF-ybd8H-uKLrngqvYPqwuafiN5_is07oTZGDICckgI-AjB9OodDNPU__sOu1J3w1w&submissionId=317ce284-0835-e816-1de6-e15c28f47d4d
+      weight: 50
+    - name: Twitter
+      url: https://twitter.com/Chernofffaces
+      weight: 60
+    - name: Instagramm
+      url: https://twitter.com/Chernofffaces
+      weight: 70
+
 params:
   # BookMenuBundle: /menu
   BookComments: yes

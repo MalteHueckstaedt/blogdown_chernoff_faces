@@ -1,0 +1,17 @@
+---
+title: I-Production
+author: R package build
+date: '2022-04-19'
+slug: []
+categories: []
+tags: []
+weight: 2
+---
+
+# Individual production
+
+Before studying social sciences, I studied fine arts in Hanover and Berlin. According to my calculations, it should be about ten years since I gave up my "_individual production_" in favour of my academic career. The reasons why I gave up my production are complicated. The practice of the artist's profession seemed to me to be too demanding and strenuous to receive little resonance and, in all probability, no reward for it throughout my life. 
+
+Ich bin trotz des Umstandes, dass ich definitiv früh und sehr blutig als Künstler gescheitert bin, sehr dankbar für die Erfahrungen, die ich in der Kunstwelt sammeln dürfte. Was bedeutet das?
+
+<img src="images/Unbenannt-1.png" alt="" width="90%"/>
