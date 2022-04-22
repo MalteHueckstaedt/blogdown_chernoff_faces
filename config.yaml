@@ -2,7 +2,7 @@
 title: Chernoff Faces 切尔诺夫的脸
 theme: hugo-book
 disablePathToLower: yes
-enableGitInfo: no
+enableGitInfo: yes
 
 pygmentsUseClasses: false
 pygmentsCodefences: true
@@ -50,9 +50,9 @@ params:
   # BookMenuBundle: /menu
   BookComments: yes
   BookDateFormat: January 2, 2006
-  #BookEditPath: edit/main/exampleSite
+  BookEditPath: /blob/master
   BookPortableLinks: yes
-  BookRepo: https://github.com/alex-shpak/hugo-book
+  BookRepo: https://github.com/MalteHueckstaedt/blogdown_chernoff_faces
   BookSearch: yes
   BookSection: docs
   BookServiceWorker: yes
