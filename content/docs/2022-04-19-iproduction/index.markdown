@@ -10,8 +10,8 @@ weight: 2
 
 # Individual production
 
-Before studying social sciences, I studied fine arts in Hanover and Berlin. According to my calculations, it should be about ten years since I gave up my "_individual production_" in favour of my academic career. Why I gave up my production? The daily practice of art-produktion seemed to me to be too demanding and exhausting to receive little response and, most likely, no money for it.
+Before studying social sciences, I studied fine arts in Hanover and Berlin. It should be about ten years since I gave up my "_individual production_" in favour of my academic career. Why I gave up my production? The daily practice of art-produktion seemed to me to be too demanding and exhausting to receive little response and, most likely, no money for it.
 
-Ich bin trotz des Umstandes, dass ich definitiv früh und sehr blutig als Künstler gescheitert bin, sehr dankbar für die Erfahrungen, die ich in der Kunstwelt sammeln dürfte. Was bedeutet das?
+Despite the fact that I definitely failed early and hard as an artist, I am very grateful for the experiences I was allowed to gain in the art world. What does that mean?
 
 <img src="images/untitled.png" alt="" width="90%"/>
