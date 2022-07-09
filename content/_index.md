@@ -3,21 +3,24 @@ title: Introduction
 type: docs
 ---
 
-# How 关于
+# Home 首页
 
 fdg
 
 
 {{< mermaid >}}
-gantt
-    title A Gantt Diagram
-    dateFormat  YYYY-MM-DD
-    axisFormat  %Y-%m
-    section Section
-    Vorbereitung Survey          :a1, 2019-01-01, 78d
-    Another task     :after a1  , 1540d
-    section Another
-    Task in sec      :2019-01-12  , 12d
-    another task      : 24d
-            
+
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+
+
 {{< /mermaid >}}
